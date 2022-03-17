@@ -3,6 +3,11 @@
   font-family: Arial;
 }
 
+html,
+body {
+  overscroll-behavior-y: contain;
+}
+
 body {
   background-color: #333;
   display: flex;
