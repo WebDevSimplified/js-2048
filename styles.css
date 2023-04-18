@@ -17,7 +17,6 @@ body {
   display: grid;
   grid-template-columns: repeat(var(--grid-size), var(--cell-size));
   grid-template-rows: repeat(var(--grid-size), var(--cell-size));
-  background-color: #CCC;
   gap: var(--cell-gap);
   border-radius: 1vmin;
   padding: var(--cell-gap);
@@ -36,7 +35,7 @@ body {
   align-items: center;
   width: var(--cell-size);
   height: var(--cell-size);
-  background-color: red;
+  background-color: blue;
   border-radius: 1vmin;
   top: calc(var(--y) * (var(--cell-size) + var(--cell-gap)) + var(--cell-gap));
   left: calc(var(--x) * (var(--cell-size) + var(--cell-gap)) + var(--cell-gap));
